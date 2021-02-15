@@ -6,7 +6,7 @@ import numpy as np
 sys.setrecursionlimit(15000)
 booksScaleDictionary = {"books1.jpg": 0.08, "books2.jpg": 0.1, "books3.jpg": 0.1,
                         "books4.jpg": 0.62, "books5.jpg": 0.6, '12.jpg': 0.1}
-bookName = "12.jpg"
+bookName = "res/12.jpg"
 img = cv.imread(bookName)
 scale = booksScaleDictionary[bookName]
 

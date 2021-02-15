@@ -8,7 +8,8 @@ sys.setrecursionlimit(15000)
 dic = {'Rishabh_Pant.jpg': 0.3, 'face2.jpg': 0.4, 'face3.jpg': 0.8,
        'face4.jpg': 0.7, 'face5.jpg': 0.2, 'face6.jpg': 0.6, 'face7.jpg': 0.6, 'face8.jpg': 0.5}
 src = 'Rishabh_Pant.jpg'
-img = cv.imread(src)
+res = 'res/'
+img = cv.imread(res + src)
 
 scale = dic[src]
 
